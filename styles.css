@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap");
+
+/*
+  SPACE SIZE SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 /
+  80 / 96 / 128
+
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 /
+  36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+  MAIN COLOR: ;
+  GREY COLOR: ;
+
+  {}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1864ab;
+  font-family: "Kumbh Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 420px;
+  height: 425px;
+  border-radius: 14px;
+}
+
+.full-card {
+  background-color: white;
+  border-radius: 14px;
+}
+
+.background-picture {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+.profil-picture img {
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-top: -60px;
+}
+
+.profil-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9px;
+  gap: 12px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.age {
+  font-size: 19px;
+  color: #6d7074;
+}
+
+.city {
+  color: hsl(0, 0%, 59%);
+  font-size: 14.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-details {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 68px;
+}
+
+.about-details section p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.about-details section span {
+  color: hsl(0, 0%, 59%);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
